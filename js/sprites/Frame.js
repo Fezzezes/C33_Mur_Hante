@@ -6,7 +6,7 @@ class Frame {
         this.node = document.querySelector("#"+id);
         console.log(this.node);
         this.opacity = 0;
-        this.vitesse = 0.002;
+        this.vitesse = 0.006;
 
         console.log("frame #"+id+" crée")
 
